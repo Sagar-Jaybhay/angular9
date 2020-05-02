@@ -1,0 +1,16 @@
+<div class="container-fluid">
+<div class="col-md-2 d-none d-md-block bg-light sidebar">
+<p>leftmenu works!</p>
+<a [routerLink]="['Home']">Home</a> <br/>
+<a [routerLink]="['Customer']">Customer</a> <br/>
+<a [routerLink]="['Supplier']">Supplier</a> <br/>
+</div>
+
+
+  <div class="container-fluid">
+<main role="main"  class="col-md-9 ml-sm-auto col-lg-10 px-4">
+ <router-outlet></router-outlet>
+
+</main>
+</div>
+</div>
